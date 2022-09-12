@@ -1,0 +1,42 @@
+<html>
+<head>
+<style>
+div#maincontent{
+height:100px;
+width:500px;
+border:1px solid #CEE2FA;
+text-align:left;
+color:#084386;
+font-family:"calibri;
+font-size:20;
+padding:5px;
+}
+div#heading{
+text-decoration:bold;
+text-align:center;
+margin-top:80px;
+width:500px;
+border:1px solid #CEE2FA;
+font-family:"calibri";
+font-size:20;
+padding:5px;
+}
+</style>
+</head>
+<body>
+<center>
+<div id="heading">Movie details</div>
+<div id="maincontent">
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<script>
+const car = {name:"Avengers", cast:"Robert djr and Tom holland", rating:4.5};
+document.getElementById("demo").innerHTML = "Movie name:"+car.name;
+document.getElementById("demo1").innerHTML = "cast:"+car.cast;
+document.getElementById("demo2").innerHTML = "rating " + car.rating;
+</script>
+</div>
+</center>
+</body>
+</html>
